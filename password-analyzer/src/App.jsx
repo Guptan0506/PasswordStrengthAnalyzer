@@ -413,7 +413,7 @@ const CHECK_ITEMS = [
   { key: "noCommon", label: "Not common" },
 ];
 
-export default function PasswordStrengthAnalyzer() {
+export default function App() {
   const [pwd, setPwd] = useState("");
   const [show, setShow] = useState(false);
   const result = analyzePassword(pwd);
